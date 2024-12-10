@@ -110,3 +110,35 @@ user-select: none;
             margin: 0
         }
     
+.kode{
+    font-size: 14px;
+    color: #808080;
+  }
+          #peringatanModal .modal-content{
+            border-radius: 20px;
+            border: none;
+
+        }
+        #peringatanModal .modal-header{
+            border: none;
+            padding: 20px 25px;
+            background-color: #f7fbff;
+        }
+        #peringatanModal  .modal-body{
+            font-size: 14px;
+            padding:  0 30px 20px;
+        }
+.blinking-note {
+        color: red;
+        font-weight: bold;
+        animation: blink 1.2s infinite;
+    }
+
+    @keyframes blink {
+        0%, 50% {
+            opacity: 1;
+        }
+        100%, 100% {
+            opacity: 0;
+        }
+    }
